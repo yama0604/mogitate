@@ -1,0 +1,175 @@
+body {
+    background-color: #f9f7f6;
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+header {
+    background-color: white;
+    color: rgb(255, 231, 19);
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-family: 'YuMincho', 'Hiragino Mincho ProN', serif;
+    font-style: italic;
+}
+
+main {
+    padding: 0 10%;
+}
+
+.search-content {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgb(113, 156, 248);
+    text-decoration: none;
+}
+
+.form {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.form-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.form-left {
+    width: 45%;
+}
+
+.form-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-left input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.form-right {
+    width: 50%;
+}
+
+.form-right label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    outline: solid 1px rgb(232, 228, 227);
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: solid 1px rgb(186, 166, 155);
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    outline: solid 1px rgb(232, 228, 227);
+    border-radius: 3px;
+    height: 140px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    accent-color: #937464;
+    margin-right: 5px;
+}
+
+.form-row-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.form-description {
+    margin-top: 30px;
+}
+
+.form-description label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: rgb(212, 27, 27);
+    font-size: 14px;
+    margin-top: 4px;
+    text-align: left;
+}
+
+/* ボタン全体ラッパー：中央寄せ & 横並び */
+.form-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* 更新ボタンと戻るボタン用グループ */
+.form-btn {
+    display: flex;
+    gap: 20px;
+}
+
+/* 戻るボタン */
+.form-btn-rtn {
+    background-color: rgb(203, 201, 201);
+    color: #333;
+    padding: 10px 50px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 保存ボタン */
+.form-btn-update {
+    background-color: #f8c407;
+    color: black;
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ゴミ箱ボタン */
+.form-btn-delete {
+    background-color: transparent;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: red;
+}

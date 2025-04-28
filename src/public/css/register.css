@@ -1,0 +1,121 @@
+body {
+    background-color: #f9f7f6;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    color: rgb(255, 231, 19);
+    margin-top: 0;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'YuMincho', 'Hiragino Mincho ProN', serif;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+h2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-input {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.form-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-row-radio,
+.form-row-radio:focus {
+    accent-color: #937464;
+    outline: none;
+}
+
+.form-radio-group {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.required {
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    padding: 2px 2px;
+}
+
+.required-2 {
+    color: red;
+    font-size: 13px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.form-input-text,
+textarea {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: none;
+    outline: solid 1px rgb(232, 228, 227);
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input:focus {
+    outline: solid 1px rgb(186, 166, 155);
+}
+
+button {
+    font-size: 15px;
+    background-color: #f8c407;
+    padding: 7px 60px;
+    border: none;
+    border-radius: 3px;
+}
+
+.form-btn-rtn {
+    background-color: rgb(203, 201, 201);
+}
+
+main {
+    padding: 0% 15%;
+}
+
+.error-wrap {
+    margin-top: 4px;
+}
+
+.error {
+    color: rgb(212, 27, 27);
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 0;
+    width: auto;
+    text-align: left;
+}

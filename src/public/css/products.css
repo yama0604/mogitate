@@ -1,0 +1,222 @@
+body {
+    background-color: #f9f7f6;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    color: rgb(255, 231, 19);
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'YuMincho', 'Hiragino Mincho ProN', serif;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 40px 20px;
+}
+
+.title-left {
+    font-size: 24px;
+}
+
+.title-right-link {
+    background-color: orange;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    padding: 0 40px;
+}
+
+.left {
+    width: 25%;
+    padding-right: 30px;
+}
+
+.left-input {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 14px 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: solid 1px rgb(171, 168, 168);
+    box-sizing: border-box;
+}
+
+.left-btn {
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #f8c407;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.left-label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.left-select-group select {
+    width: 100%;
+    padding: 11px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid 1px rgb(171, 168, 168);
+    background-color: white;
+}
+
+.right {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.right-product {
+    width: calc(33.33% - 20px);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.right-product:hover {
+    transform: scale(1.02);
+}
+
+.right-product a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.right-product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-info {
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+    color: #333;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+/* タグ（並び替え条件） */
+.left-tag {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 6px 12px;
+    border: 1px solid #f8c407;
+    border-radius: 999px;
+    font-size: 14px;
+    color: #333;
+    background-color: white;
+    font-weight: 500;
+}
+
+.left-tag-close {
+    margin-left: 10px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 1px solid #f8c407;
+    background-color: white;
+    color: #f8c407;
+    text-decoration: none;
+}
+
+/* ページネーション中央寄せ */
+.pagination-wrap {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.pagination {
+    display: inline-flex;
+    list-style: none;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    display: inline-block;
+}
+
+.pagination a,
+.pagination span {
+    padding: 6px 12px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.pagination .active span {
+    background-color: #f8c407;
+    border: 1px solid #f8c407;
+    color: white;
+    font-weight: bold;
+}
+
+nav[role="navigation"]>div:first-child,
+nav[role="navigation"]>div:nth-child(3) {
+    display: none;
+}
+
+nav[role="navigation"] svg {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    stroke-width: 2;
+    stroke: currentColor;
+    fill: none;
+}
+
