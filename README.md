@@ -40,8 +40,7 @@
 - MySQL 9.2.0
 
 ## ER 図
-
-- ![Image](https://github.com/user-attachments/assets/9dbd05a9-2cd0-4c02-849a-b322ee34325d)
+![mogitste drawio](https://github.com/user-attachments/assets/72fb866d-1e9d-4066-b362-41726657b2af)
 
 ## URL
 
