@@ -5,33 +5,33 @@
 ## 環境構築
 
 - Docker ビルド
-  docker-compose up -d --build
+- docker-compose up -d --build
 
 - Docker イメージのビルドとコンテナの起動
-  docker-compose exec php bash
+- docker-compose exec php bash
 
 - composer インストール有無確認
-  composer -v
-  composer install
-  cp .env.example .env
-  php artisan key:generate
+- composer -v
+- composer install
+- cp .env.example .env
+- php artisan key:generate
 
 - .envの設定を確認
-  DB_CONNECTION=mysql
-  DB_HOST=mysql
-  DB_PORT=3306
-  DB_DATABASE=laravel_db
-  DB_USERNAME=laravel_user
-  DB_PASSWORD=laravel_pass
+- DB_CONNECTION=mysql
+- DB_HOST=mysql
+- DB_PORT=3306
+- DB_DATABASE=laravel_db
+- DB_USERNAME=laravel_user
+- DB_PASSWORD=laravel_pass
 
 - ※必要に応じて実行（マイグレーション実行）
-  php artisan migrate
+- php artisan migrate
 
 - ※必要に応じて実行（シーダー作成）
-  php artisan db:seed
+- php artisan db:seed
 
 - シンボリックリンク実行
-  php artisan storage:link
+- php artisan storage:link
 
 ## 使用技術(実行環境)
 
