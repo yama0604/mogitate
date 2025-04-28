@@ -15,20 +15,24 @@
 
 - composer install
 - cp .env.example .env
+- php artisan key:generate
 
-- MySQL で DB 作成
-- ログイン：ID
-- mysql -u root -p
-- ログイン：PW：
-- スペース
-- DB 作成
-- CREATE DATABASE laravel_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+- .envの設定を確認
+- DB_CONNECTION=mysql
+- DB_HOST=mysql
+- DB_PORT=3306
+- DB_DATABASE=laravel_db
+- DB_USERNAME=laravel_user
+- DB_PASSWORD=laravel_pass
 
-- マイグレーション実行
+- ※必要に応じて実行（マイグレーション実行）
 - php artisan migrate
 
-- シーダー作成
+- ※必要に応じて実行（シーダー作成）
 - php artisan db:seed
+
+- シンボリックリンク実行
+- php artisan storage:link
 
 ## 使用技術(実行環境)
 
